@@ -1,0 +1,256 @@
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+#index-main{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: #ffba00
+}
+/* inicio paragrafos principais css */
+#background-titulo{
+    background-color: #DF826C;
+}
+#titulo-principal{
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    font-weight: bold;
+}
+#linha-titulo-principal{
+    display: flex;
+    width: 60%;
+    height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 4%;
+}
+#paragrafos-informativos{
+    position: relative;
+    height: fit-content;
+}
+#img-paragrafo{
+    position: absolute;
+    background-color: aqua;
+    height: 300px;
+    width: 600px;
+    border-radius: 20px;
+    z-index: 0;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.paragrafo-informativo{
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    width: 60%;
+    text-align: justify;
+    position: relative;
+    background-color: transparent;
+    z-index: 1;
+}
+#primeiro-paragrafo{
+    float: left;
+    margin-left: 2%;
+}
+#segundo-paragrafo{
+    float: right;
+    margin-right: 2%;
+    margin-bottom: 1%;
+}
+/* fim css paragrafos principais */
+
+/* inico css card login */
+#login-container{
+    display: flex;
+    background-color: #5c8aff;
+    height: 300px;
+    width: 75%;
+    min-height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    align-items: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    box-shadow: -7px -7px 0px 0px rgba(0, 0, 0, 0.75);
+}
+#area-login{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20%;
+    margin-left: 5%;
+}
+#linha-login{
+    background-color: black;
+    height: 80%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 1px;
+}
+.campo-login{
+    display: flex;
+    flex-direction: column;
+    font-size: 45px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.campo-login input{
+    background-color: #fff;
+    border-radius: 10px;
+    font-size: 35px;
+}
+#login-container button{
+    width: fit-content;
+    background-color: green;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 5%;
+    cursor: pointer;
+}
+#texto-empregado{
+    font-size: 60px;
+    font-weight: bold;
+    text-align:center;
+    margin-left: -15px;
+}
+/* fim css card login */
+
+/* inicio css fale conosco */
+.container-Fale-conosco {
+    display: flex;
+    background-color: #ffba00;
+    align-items: center;
+    justify-content: flex-start;
+    height: 400px;
+    width: 100%;
+}
+#Titulo-fale-conosco {
+    display: flex;
+    flex-direction: column;
+    font-size: 70px;
+    margin-left: 10%;
+    width: 40%;
+}
+#titulo-conosco {
+    padding-left: 10%;
+    width: fit-content;
+}
+
+#linha-fale-conosco {
+    display: flex;
+    background-color: black;
+    width: 2px;
+    height: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#box-fale-conosco {
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 20px;
+    width: 30%;
+    height: 80%;
+    margin-right: auto;
+    margin-left: 2%;
+}
+#campo-titulo-contato{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#campo-nome{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+#campo-nome input{
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 10px;
+    width: 300px;
+    background-color: #fff;
+}
+#campo-email{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+#campo-email input{
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 10px;
+    width: 300px;
+    background-color: #fff;
+}
+#campo-mensagem{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+#campo-mensagem textarea{
+    height: 100px;
+    border-radius: 10px;
+    width: 96%;
+    margin-top: 10px;
+    text-align: start;
+    background-color: #fff;
+}
+#btn-enviar{
+    margin-left: 10px;
+    border-radius: 20px;
+    background-color: green;
+    padding: 5px;
+    margin-top: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* fim css fale conosco */
+
+/* css area adm */
+#main-adm{
+    background-color: #f4a460;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+#adm-tabela{
+    background-color: antiquewhite;
+    margin: auto;
+    width: 80%;
+    border-radius: 20px;
+}
+#tabela-nome{
+    border-right: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+#tabela-email{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+#tabela-mensagem{
+    border-left: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+#adm-titulo{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    
+}
+/* fim css area adm */

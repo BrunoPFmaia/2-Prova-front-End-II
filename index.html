@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+    <title>Prova 2</title>
+</head>
+<body>
+    <main id="index-main">
+        <!-- inicio paragrafos principais -->
+        <div id="background-titulo">
+            <div id="titulo-principal">Pagina Principal</div>
+            <div id="linha-titulo-principal"></div>
+            <div id="paragrafos-informativos">
+                <p id="primeiro-paragrafo" class="paragrafo-informativo">
+                    Lorem ipsum dolor sit amet. Sed obcaecati cumque est internos quibusdam ut enim rerum aut 
+                    cupiditate porro sed omnis sequi qui accusamus quos non laudantium deleniti. Nam saepe 
+                    molestiae et dolores molestiae est doloribus inventore est sapiente maiores et unde deleniti 
+                    et fuga quia sit incidunt facere.
+                </p>
+                <div id="img-paragrafo"></div>
+                <p id="segundo-paragrafo" class="paragrafo-informativo">
+                    Ut perspiciatis accusamus et dolore voluptas est adipisci ipsa. Cum esse saepe sit necessitatibus 
+                    suscipit et beatae molestiae non odio quod ut itaque quis est vitae amet in praesentium ipsum. 
+                    Qui vitae tempore est inventore autem aut excepturi deserunt non repellendus harum 33 enim nihil 
+                    quo pariatur perspiciatis. Ut reprehenderit velit cum dolores quibusdam sit dignissimos excepturi 
+                    ut culpa veritatis et cumque porro id natus nihil.
+                </p>
+            </div>
+        </div>
+        <!-- fim paragrafos principais -->
+
+        <!-- inicio card login -->
+        <div id="login-container">
+            <div id="area-login">
+                <div class="campo-login" id="div-login">
+                    <div>Usuário:</div>
+                    <input id="valor-usuario" type="text">
+                </div>
+                <div class="campo-login" id="div-senha">
+                    <div>Senha:</div>
+                    <input id="valor-senha" type="text">
+                </div>
+                <button type="button" onclick="btn_login()" id="btn-login">Confirmar</button>
+            </div>
+            <div id="linha-login"></div>
+            <div id="texto-empregado">Trabalha aqui? Faça seu login</div>
+        </div>
+        <!-- fim card login -->
+
+        <!-- inicio fale conosco -->
+        <div class="container-Fale-conosco">
+            <div id="Titulo-fale-conosco">
+                <h1 id="titulo-fale">Fale</h1>
+                <h1 id="titulo-conosco">conosco</h1>
+            </div>
+            <div id="linha-fale-conosco"></div>
+            <div id="box-fale-conosco">
+                <div id="campo-titulo-contato">
+                    <h2>Contato</h2>
+                </div>
+                <div id="campo-nome">
+                    <h2>Nome:</h2>
+                    <input maxlength="25" id="input-nome" type="text">
+                </div>
+                <div id="campo-email">
+                    <h2>E-mail:</h2>
+                    <input maxlength="30" id="input-email" type="text">
+                </div>
+                <div id="campo-mensagem">
+                    <h2>Mensagem:</h2>
+                    <textarea maxlength="110" name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+                </div>
+                <button type="button" id="btn-enviar" onclick="btn_msg()">Enviar</button>
+            </div>
+        </div>
+        <!-- fim fale conosco -->
+    </main>
+</body>
+</html>
